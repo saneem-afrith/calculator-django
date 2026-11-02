@@ -1,0 +1,82 @@
+#api call for adding two numbers
+###
+post http://127.0.0.1:8000/add/
+Content-Type: application/json
+
+{
+  "num1": 230,
+  "num2": 870
+}
+
+#api for substraction
+###
+post http://127.0.0.1:8000/substract/
+Content-Type: application/json
+
+{
+  "num1": 1000,
+  "num2": 450
+}
+
+#api for multiplication
+###
+post http://127.0.0.1:8000/multiplication/
+Content-Type: application/json
+
+{
+  "num1": 10,
+  "num2": 10
+}
+
+#api for division
+###
+post http://127.0.0.1:8000/division/
+Content-Type: application/json
+
+{
+  "num1":10,
+  "num2":10
+}
+
+
+
+# api for body mass index(bmi)
+###
+post http://127.0.0.1:8000/bmi/
+Content-Type: application/json
+
+{
+  "h":160,
+  "w":61
+}
+
+#api for calculation age
+###
+post http://127.0.0.1:8000/age/
+Content-Type: application/json
+
+{
+  "b_year" : 2001,
+  "c_year" : 2026
+}
+
+#api for obtained percentage
+###
+post http://127.0.0.1:8000/mark/
+Content-Type: application/json
+
+{
+  "obtained_mark" :400,
+  "total_mark":500
+}
+
+#api to find area of an rectangle
+
+###
+post http://127.0.0.1:8000/area/
+Content-Type: application/json
+
+{
+  "length":11,
+  "width":9
+}
